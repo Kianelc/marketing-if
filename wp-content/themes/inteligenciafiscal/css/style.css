@@ -1,0 +1,75 @@
+body { background-color: #eff3f8; }
+
+/* Menu */
+a {
+  text-decoration: none !important;
+  background-color: transparent;
+  color: rgba(0,0,0,.5);
+}
+
+.menu-item {
+  display: block;
+  padding: .5rem 1rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+/* Botão menu e proposta de valor */
+#menu-item-27 { background-color: rgb(68, 165, 216); }
+.btn-proposta-valor{ background-color: #44b480; }
+.btn-proposta-valor, #menu-item-27, #menu-item-27 > a { border-radius: 25px; color: white; }
+.btn-proposta-valor:hover, #menu-item-27:hover{ color: #fff!important; opacity: .8; }
+
+
+/* Collapse menu */
+.navbar-collapse{ flex-grow: 0; }
+
+/* Background título principal */
+.bg-principal { padding-top: 12rem; padding-bottom: 12rem; background-color: #fff; }
+
+/* Proposta de valor */
+.card-float{ margin-top: -10rem; }
+
+/* Pilares do produto */
+.card{ border: 1px solid rgba(216, 216, 216, 0.125); border-radius: 0; }
+
+/* Footer */
+footer{ background-color: #4ec1ed !important; border-radius: 300px 0 0 0; color: white; padding: 55px 0 !important; }
+footer { padding-top: 3rem; padding-bottom: 3rem; }
+footer p { margin-bottom: .25rem; color: #fff; }
+
+/* Títulos */
+.title-pilares, .title-parceiros { font-family: 'Ubuntu', sans-serif; color: #444242; }
+.title-pilares { font-weight: 700; }
+.title-parceiros { font-weight: 400; }
+
+/* Parágrafos */
+.card-text-proposta { font-size: 16px; }
+.card-text-pilares{ font-size: 14px; }
+p { color: #8C8C8C; }
+
+/* Seta */
+.demo a { display: inline-block; }
+.demo a:hover { opacity: .5; }
+#section01 a span {
+  position: absolute;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 2px solid #bfbfbf;
+  border-bottom: 2px solid #bfbfbf;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+
+/* Background calculadora */
+.bg-calculadora { padding-top: 6rem; padding-bottom: 6rem; background-color: #fff; }
+
+/* Background blog*/
+.bg-blog { padding-top: 2rem; padding-bottom: 2rem; background-color: #808487; }
